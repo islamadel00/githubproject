@@ -5,7 +5,7 @@
 
 body {
   min-height: 100vh;
-  background-color: #000000;
+  background-color: #a21e1e;
   background-image: url(wavey-fingerprint.svg);
   background-attachment: fixed;
   background-size: 50%;
@@ -30,14 +30,14 @@ body {
 
 .correct,
 .correct:hover {
-  --main-color: #7cb518 !important;
+  --main-color: #656f54 !important;
   background-color: var(--main-color);
   color: #fff !important;
 }
 
 .wrong,
 .wrong:hover {
-  --main-color: #bf0603 !important;
+  --main-color: #8c6261 !important;
   background-color: var(--main-color);
   color: #fff !important;
 }
