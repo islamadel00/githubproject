@@ -5,7 +5,7 @@
 
 body {
   min-height: 100vh;
-  background-color: #a21e1e;
+  background-color: #773838;
   background-image: url(wavey-fingerprint.svg);
   background-attachment: fixed;
   background-size: 50%;
@@ -49,7 +49,7 @@ body {
 
 .btn-category {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #a1c349;
+  --bs-btn-bg: #91b33a;
   --bs-btn-border-color: #a1c349;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #a1c349;
@@ -60,7 +60,7 @@ body {
 .btn-start {
   --bs-btn-color: #fff;
   --bs-btn-bg: #38369a;
-  --bs-btn-border-color: #38369a;
+  --bs-btn-border-color: #31306b;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #4c4aae;
   --bs-btn-hover-border-color: #4c4aae;
@@ -96,7 +96,7 @@ body {
   top: -5px;
   transform: scale(2) translate(-50%, -50%);
   scale: 1.1;
-  background-image: conic-gradient(#fc5130, #613dc1);
+  background-image: conic-gradient(#956359, #221051);
   animation: spinning 7s infinite linear;
   z-index: -1;
   border-radius: inherit;
@@ -135,7 +135,7 @@ body {
 
 /* ======> Question Card */
 .question {
-  background-color: #fff;
+  background-color: #c2b9b9;
   position: relative;
 }
 
@@ -166,7 +166,7 @@ body {
 
 .choices li:hover {
   background-color: var(--main-color);
-  color: #f1f1f1;
+  color: #874e4e;
 }
 
 .question i {
