@@ -15,6 +15,8 @@ const initiateQuiz = async () => {
         difficulty: difficultyInput.value,
         numbers: numbersInput.value
     };
+    console.log(values);
+    
     myQuiz = new Quiz(values); //Instantiate a new Quiz Object from Quiz Class
     questionsArray = await myQuiz.getQuestions();
     console.log(questionsArray);
@@ -82,7 +84,7 @@ class Question {
         <ul class="choices w-100 list-unstyled m-0 d-flex flex-wrap text-center">
         ${this.allAnswers.map((answer) => `<li>${answer}</li>`).toString().replaceAll(",", "")}
         </ul>
-        <h2 class="text-capitalize text-center score-color h3 fw-bold"><i class="bi bi-emoji-laughing"></i> Score:${myQuiz.score}</h2>
+        <h2 class=" text-capitalize text-center score-color h2 fw-bold"><i class="bi bi-emoji-laughing"></i> Score:${myQuiz.score}</h2>
         </div>
         `;
         const choices = document.querySelectorAll("ul li");
