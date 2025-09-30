@@ -80,8 +80,8 @@ body {
 }
 
 .heading h1 {
-  font-size: 50px;
-  padding: 15px;
+  font-size: 3.125rem;
+  padding: 1.5625rem;
   background-image: linear-gradient(30deg, #eee, #fff);
   font-family: "Electrolize", sans-serif;
   border-radius: inherit;
@@ -141,22 +141,22 @@ body {
 
 .question h2 {
   font-family: "Dosis", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .choices {
-  gap: 10px;
+  gap: .625rem;
 }
 
 .choices li {
   --main-color: #434371;
   width: calc((100% - 10px) / 2);
   font-size: 19px;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 100vh;
   border: 2px solid var(--main-color);
   color: var(--main-color);
-  padding: 5px 12px;
+  padding: .3125rem 12px;
   transition: background-color 350ms, color 350ms;
   cursor: pointer;
   display: flex;
